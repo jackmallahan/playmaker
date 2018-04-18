@@ -7,13 +7,13 @@ const Footer = () => {
     <footer className={styles.footer} >
       <div className="container">
         <span>
-          Powered by&nbsp;
+          Created For Coaches by&nbsp;
           <a
-            href="https://www.atyantik.com"
+            href="https://www.github.com/jackmallahan"
             target="_blank"
             rel="noopener"
           >
-            Atyantik Technologies Private Limited
+            Jack Mallahan
           </a>
         </span>
       </div>

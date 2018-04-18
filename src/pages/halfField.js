@@ -1,11 +1,11 @@
-import Home from "../app/components/home";
+import HalfField from "../app/components/halfField/halfField";
 import DefaultLayout from "../app/components/layout";
 
 const routes = [
   {
     path: "/",
     exact: true,
-    component: Home,
+    component: HalfField,
     layout: DefaultLayout,
   }
 ];
