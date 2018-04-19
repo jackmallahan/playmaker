@@ -24,7 +24,10 @@
   "babel": {
     "extends": "pawjs/src/babel/.babelrc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "firebase": "^4.12.1",
+    "redux": "^4.0.0"
+  },
   "devDependencies": {
     "pawjs": "^0.4.7"
   }

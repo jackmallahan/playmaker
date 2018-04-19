@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SmallImage from "../../../resources/images/mario-large.png?sizes=100w+200w+400w+800w&placeholder&lightweight";
+import SmallImage from "../../../resources/images/halfField.jpg?sizes=100w+200w+400w+800w&placeholder&lightweight";
 import Picture from "pawjs/src/components/picture/picture";
 
 export default class ProgressiveImage extends Component {

@@ -18,30 +18,6 @@ const Header = (props) => {
         </li>
         <li className="nav-item">
           <Link
-            className={classNames("nav-link", {active: props.url === "/about"})}
-            to="/about"
-          >
-            About
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/blog"})}
-            to="/blog"
-          >
-            Blog
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
-            className={classNames("nav-link", {active: props.url === "/contact"})}
-            to="/contact"
-          >
-            Contact
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link
             className={classNames("nav-link", {active: props.url === "/progressive-image-rendering"})}
             to="/progressive-image-rendering"
           >
